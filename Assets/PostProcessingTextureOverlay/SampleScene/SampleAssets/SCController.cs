@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 
-namespace DitzelGames.PostProcessingTextureOverlay.Sample
+namespace UnityTemplateProjects
 {
-    public class SimpleCameraController : MonoBehaviour
+    public class SCController : MonoBehaviour
     {
         class CameraState
         {
@@ -118,20 +118,20 @@ namespace DitzelGames.PostProcessingTextureOverlay.Sample
             }
 
             // Hide and lock cursor when right mouse button pressed
-            if (Input.GetMouseButtonDown(1))
+            if (Input.GetMouseButtonDown(0))
             {
                 Cursor.lockState = CursorLockMode.Locked;
             }
 
             // Unlock and show cursor when right mouse button released
-            if (Input.GetMouseButtonUp(1))
+            if (Input.GetMouseButtonUp(0))
             {
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
             }
 
             // Rotation
-            if (Input.GetMouseButton(1))
+            if (Input.GetMouseButton(0))
             {
                 var mouseMovement = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y") * (invertY ? 1 : -1));
                 

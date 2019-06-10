@@ -1,4 +1,4 @@
-﻿Shader "DitzelGames/TextureOverlay"
+﻿Shader "Hidden/DitzelGames/TextureOverlay"
 {
 	HLSLINCLUDE
 

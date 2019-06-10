@@ -18,7 +18,7 @@ MonoBehaviour:
     value: 1
   texture:
     overrideState: 1
-    value: {fileID: 2800000, guid: ad3978e5c07805842af8a4163d816f98, type: 3}
+    value: {fileID: 8400000, guid: aa6542269cec4b747b02a0fea15c22bd, type: 2}
     defaultState: 1
   tiling:
     overrideState: 0
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
-  m_Name: Profile
+  m_Name: ProfileRender
   m_EditorClassIdentifier: 
   settings:
   - {fileID: -8213721904218856712}

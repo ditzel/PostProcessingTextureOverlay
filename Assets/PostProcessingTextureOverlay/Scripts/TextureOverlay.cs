@@ -38,7 +38,7 @@ namespace DitzelGames.PostProcessingTextureOverlay
     {
         public override void Render(PostProcessRenderContext context)
         {
-            var sheet = context.propertySheets.Get(Shader.Find("DitzelGames/TextureOverlay"));
+            var sheet = context.propertySheets.Get(Shader.Find("Hidden/DitzelGames/TextureOverlay"));
 
             var imageTexture = settings.texture.value == null
                     ? RuntimeUtilities.transparentTexture
