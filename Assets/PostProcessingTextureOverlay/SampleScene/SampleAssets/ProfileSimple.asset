@@ -21,16 +21,16 @@ MonoBehaviour:
     value: {fileID: 2800000, guid: ad3978e5c07805842af8a4163d816f98, type: 3}
     defaultState: 1
   tiling:
-    overrideState: 0
-    value: {x: 1, y: 1}
-  offset:
-    overrideState: 0
-    value: {x: 0, y: 0}
-  keepAspectRatio:
     overrideState: 1
+    value: {x: 0.95, y: 1.42}
+  offset:
+    overrideState: 1
+    value: {x: 0.06, y: 0.14}
+  keepAspectRatio:
+    overrideState: 0
     value: 1
   alphaIsTransparent:
-    overrideState: 0
+    overrideState: 1
     value: 1
 --- !u!114 &-4890897493932688
 MonoBehaviour:
