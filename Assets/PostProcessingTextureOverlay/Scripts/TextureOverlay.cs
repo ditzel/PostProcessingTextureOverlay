@@ -6,6 +6,7 @@ using UnityEngine.Rendering.PostProcessing;
 namespace DitzelGames.PostProcessingTextureOverlay
 {
     [Serializable]
+    [UnityEngine.Scripting.Preserve]
     [PostProcess(typeof(TextureOverlayRenderer), PostProcessEvent.AfterStack, "DitzelGames/TextureOverlay", false)]
     public sealed class TextureOverlay : PostProcessEffectSettings
     {
@@ -34,6 +35,7 @@ namespace DitzelGames.PostProcessingTextureOverlay
 
     }
 
+    [UnityEngine.Scripting.Preserve]
     public sealed class TextureOverlayRenderer : PostProcessEffectRenderer<TextureOverlay>
     {
         public override void Render(PostProcessRenderContext context)
